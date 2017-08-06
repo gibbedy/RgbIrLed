@@ -100,6 +100,5 @@ RgbIrLed::RgbIrLed(int type)
    BB2 = 0xFF20DF;
    BB3 = 0xFF708F;
    BB4 = 0xFFF00F;
-}
-
+  }
 }
