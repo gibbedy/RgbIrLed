@@ -71,9 +71,35 @@ RgbIrLed::RgbIrLed(int type)
    BB3 = 0xFF58A7;
    BB4 = 0xFF48B7;
 }
+//TYPE 2 = APA1616 24 Button Remote Alternative
+ if(type==2)
+ {
+   Brighter = 0xFF906F;
+   Darker = 0xFFB847 ;
+   Off = 0xFFF807;
+   On = 0xFFB04F;
+   Red = 0xFF9867;
+   Green = 0xFFD827;
+   Blue = 0xFF8877;
+   White = 0xFFA857;
+   Flash = 0xFFB24D;
+   Strobe = 0xFF00FF;
+   Fade = 0xFF58A7;
+   Smooth = 0xFF30CF;
+   BR1 = 0xFFE817;
+   BR2 = 0xFF02FD;
+   BR3 = 0xFF50AF;
+   BR4 = 0xFF38C7;
 
+   BG1 = 0xFF48B7;
+   BG2 = 0xFF32CD;
+   BG3 = 0xF78877;
+   BG4 = 0xFF28D7;
 
+   BB1 = 0xFF6897;
+   BB2 = 0xFF20DF;
+   BB3 = 0xFF708F;
+   BB4 = 0xFFF00F;
 }
 
-
-
+}
